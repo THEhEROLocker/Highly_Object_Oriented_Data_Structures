@@ -37,8 +37,7 @@ public class lNode implements Node_Base{
 
     @Override
     public Node_Base remove(int to_remove) {
-        if(data == to_remove)
-        {
+        if(data == to_remove) {
             return next.remove(to_remove);
         }
         else{
