@@ -12,5 +12,10 @@ public class Main {
         myLLL.add(5);
 
         myLLL.display_all();
+        System.out.println("-------------------");
+
+        myLLL.remove(6);
+        myLLL.display_all();
+
     }
 }

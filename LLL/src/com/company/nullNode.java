@@ -15,4 +15,9 @@ public class nullNode implements Node_Base {
         Node_Base t = new lNode(to_add);
         return t;
     }
+
+    @Override
+    public Node_Base remove(int to_remove) {
+        return this;
+    }
 }

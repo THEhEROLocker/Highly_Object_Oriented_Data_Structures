@@ -18,4 +18,8 @@ public class LLL {
     public void display_all(){
         head.display_all();
     }
+
+    public void remove(int to_remove){
+        head = head.remove(to_remove);
+    }
 }
