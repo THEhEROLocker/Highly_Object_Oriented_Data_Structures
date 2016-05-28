@@ -1,0 +1,4 @@
+*.swp
+.idea
+*.class
+.DS_Store
