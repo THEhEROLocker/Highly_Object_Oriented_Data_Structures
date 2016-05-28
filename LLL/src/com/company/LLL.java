@@ -22,4 +22,8 @@ public class LLL {
     public void remove(int to_remove){
         head = head.remove(to_remove);
     }
+
+    public void reverse(){
+        head = head.reverse(new nullNode());
+    }
 }

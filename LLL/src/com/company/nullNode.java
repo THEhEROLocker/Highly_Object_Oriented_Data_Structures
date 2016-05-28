@@ -20,4 +20,9 @@ public class nullNode implements Node_Base {
     public Node_Base remove(int to_remove) {
         return this;
     }
+
+    @Override
+    public Node_Base reverse(Node_Base ptr) {
+        return ptr;
+    }
 }

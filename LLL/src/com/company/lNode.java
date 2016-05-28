@@ -47,4 +47,10 @@ public class lNode implements Node_Base{
         }
     }
 
+    @Override
+    public Node_Base reverse(Node_Base ptr) {
+        Node_Base p = next.reverse(this);
+        next = ptr;
+        return  p;
+    }
 }
